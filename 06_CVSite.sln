@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.API", "GitHub.API\GitHub.API.csproj", "{55ACD6AD-688C-427F-8D8E-1827C783794E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{679BFE4C-46D4-4861-809B-2D4326FC05A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F8166DC3-7528-4495-AD06-1F231C8681FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPIs", "WebAPIs", "{E5DF1B7D-E330-47F7-AE79-1183A72B1568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubIntegration", "GitHubIntegration\GitHubIntegration.csproj", "{B9ED8C3C-CD4D-4133-9E60-013FE8BB6C55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55ACD6AD-688C-427F-8D8E-1827C783794E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ACD6AD-688C-427F-8D8E-1827C783794E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ACD6AD-688C-427F-8D8E-1827C783794E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ACD6AD-688C-427F-8D8E-1827C783794E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9ED8C3C-CD4D-4133-9E60-013FE8BB6C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9ED8C3C-CD4D-4133-9E60-013FE8BB6C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9ED8C3C-CD4D-4133-9E60-013FE8BB6C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9ED8C3C-CD4D-4133-9E60-013FE8BB6C55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55ACD6AD-688C-427F-8D8E-1827C783794E} = {E5DF1B7D-E330-47F7-AE79-1183A72B1568}
+		{F8166DC3-7528-4495-AD06-1F231C8681FE} = {679BFE4C-46D4-4861-809B-2D4326FC05A6}
+		{E5DF1B7D-E330-47F7-AE79-1183A72B1568} = {679BFE4C-46D4-4861-809B-2D4326FC05A6}
+		{B9ED8C3C-CD4D-4133-9E60-013FE8BB6C55} = {F8166DC3-7528-4495-AD06-1F231C8681FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B62D49C1-8666-4051-91A7-FD4085EA46C6}
+	EndGlobalSection
+EndGlobal
